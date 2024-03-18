@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		ADA67F2C2BA7502F00AF6A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F2B2BA7502F00AF6A75 /* AppDelegate.swift */; };
 		ADA67F2E2BA7502F00AF6A75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F2D2BA7502F00AF6A75 /* SceneDelegate.swift */; };
-		ADA67F302BA7502F00AF6A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F2F2BA7502F00AF6A75 /* ViewController.swift */; };
-		ADA67F332BA7502F00AF6A75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ADA67F322BA7502F00AF6A75 /* Base */; };
+		ADA67F302BA7502F00AF6A75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F2F2BA7502F00AF6A75 /* ProfileViewController.swift */; };
 		ADA67F362BA7502F00AF6A75 /* DelegatePatternPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F342BA7502F00AF6A75 /* DelegatePatternPractice.xcdatamodeld */; };
 		ADA67F382BA7503100AF6A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA67F372BA7503100AF6A75 /* Assets.xcassets */; };
 		ADA67F3B2BA7503100AF6A75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ADA67F3A2BA7503100AF6A75 /* Base */; };
+		ADA67F432BA7519600AF6A75 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F422BA7519600AF6A75 /* EditView.swift */; };
+		ADA67F452BA756DA00AF6A75 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F442BA756DA00AF6A75 /* EditProfileViewController.swift */; };
+		ADA67F472BA7571900AF6A75 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F462BA7571900AF6A75 /* ProfileView.swift */; };
+		ADA67F492BA75A0100AF6A75 /* changeNameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA67F482BA75A0100AF6A75 /* changeNameDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADA67F282BA7502F00AF6A75 /* DelegatePatternPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegatePatternPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA67F2B2BA7502F00AF6A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA67F2D2BA7502F00AF6A75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADA67F2F2BA7502F00AF6A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADA67F322BA7502F00AF6A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA67F2F2BA7502F00AF6A75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ADA67F352BA7502F00AF6A75 /* DelegatePatternPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DelegatePatternPractice.xcdatamodel; sourceTree = "<group>"; };
 		ADA67F372BA7503100AF6A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA67F3A2BA7503100AF6A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA67F3C2BA7503100AF6A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA67F422BA7519600AF6A75 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		ADA67F442BA756DA00AF6A75 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		ADA67F462BA7571900AF6A75 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ADA67F482BA75A0100AF6A75 /* changeNameDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeNameDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				ADA67F2B2BA7502F00AF6A75 /* AppDelegate.swift */,
 				ADA67F2D2BA7502F00AF6A75 /* SceneDelegate.swift */,
-				ADA67F2F2BA7502F00AF6A75 /* ViewController.swift */,
-				ADA67F312BA7502F00AF6A75 /* Main.storyboard */,
+				ADA67F2F2BA7502F00AF6A75 /* ProfileViewController.swift */,
+				ADA67F442BA756DA00AF6A75 /* EditProfileViewController.swift */,
 				ADA67F372BA7503100AF6A75 /* Assets.xcassets */,
 				ADA67F392BA7503100AF6A75 /* LaunchScreen.storyboard */,
 				ADA67F3C2BA7503100AF6A75 /* Info.plist */,
 				ADA67F342BA7502F00AF6A75 /* DelegatePatternPractice.xcdatamodeld */,
+				ADA67F462BA7571900AF6A75 /* ProfileView.swift */,
+				ADA67F422BA7519600AF6A75 /* EditView.swift */,
+				ADA67F482BA75A0100AF6A75 /* changeNameDelegate.swift */,
 			);
 			path = DelegatePatternPractice;
 			sourceTree = "<group>";
@@ -130,7 +139,6 @@
 			files = (
 				ADA67F382BA7503100AF6A75 /* Assets.xcassets in Resources */,
 				ADA67F3B2BA7503100AF6A75 /* Base in Resources */,
-				ADA67F332BA7502F00AF6A75 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA67F362BA7502F00AF6A75 /* DelegatePatternPractice.xcdatamodeld in Sources */,
-				ADA67F302BA7502F00AF6A75 /* ViewController.swift in Sources */,
+				ADA67F302BA7502F00AF6A75 /* ProfileViewController.swift in Sources */,
+				ADA67F452BA756DA00AF6A75 /* EditProfileViewController.swift in Sources */,
+				ADA67F432BA7519600AF6A75 /* EditView.swift in Sources */,
 				ADA67F2C2BA7502F00AF6A75 /* AppDelegate.swift in Sources */,
+				ADA67F492BA75A0100AF6A75 /* changeNameDelegate.swift in Sources */,
+				ADA67F472BA7571900AF6A75 /* ProfileView.swift in Sources */,
 				ADA67F2E2BA7502F00AF6A75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADA67F312BA7502F00AF6A75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADA67F322BA7502F00AF6A75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADA67F392BA7503100AF6A75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +305,6 @@
 				INFOPLIST_FILE = DelegatePatternPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +332,6 @@
 				INFOPLIST_FILE = DelegatePatternPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
